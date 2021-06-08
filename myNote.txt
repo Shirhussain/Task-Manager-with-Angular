@@ -1,0 +1,49 @@
+component in Angular
+for creating a component you need to named it like:
+courses.component.ts
+name-of-app.component.ts
+
+
+Module:
+in your model you need to add the component
+after you added component it will automatically will import
+
+
+in angular we can have a custome html element
+it means that instead of html we can add new things
+
+
+crating a component from cli:
+ng generate component appName
+=> ng g c course
+the good news is that it will automatically register as well
+
+`backtick`
+the beauty of backtick is that you can extend your template 
+
+generatin a service in angular cli
+ng generate service name-of-service
+ng g s Email
+
+ng:
+Directives: 
+stractural: Modify the stracture of a DOM 
+Attribute: Modify the attriibue of the DOM
+
+ngif vs hidden property:
+if we use if then the next statement will remove form the dom but if you use 
+hidden still we have that element as well so which one we should choose?
+
+if you are working with a large trees it's better to use '**ngif' because it will
+help you to not consume to much resources
+
+but if it's small tree it dosen't matter which one you chose
+
+
+ngSwitch:
+is for swiching
+
+ngFor
+
+
+Angular Services:
