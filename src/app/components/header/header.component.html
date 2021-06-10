@@ -3,8 +3,9 @@
     <!-- here i'm inputting the color andd text so i have to import
     input module in the button component -->
     <app-button
-    color="green" 
-    text="Add"
+    *ngIf="hasRoute('/')"
+    color="{{ showAddTask ? 'red' : 'green'}}"
+    text="{{ showAddTask ? 'Close' : 'Add' }}"
     (btnClick)="toggleAddTask()"
     ></app-button>
 </header>

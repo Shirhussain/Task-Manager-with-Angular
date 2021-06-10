@@ -17,6 +17,24 @@
       "text": "Food Shopping",
       "day": "May 7th at 12:30pm",
       "reminder": true
+    },
+    {
+      "text": "my new task as CEO",
+      "day": "202/10/04",
+      "reminder": true,
+      "id": 4
+    },
+    {
+      "text": "the is new task for test",
+      "day": "date and time is here on nowroz",
+      "reminder": false,
+      "id": 6
+    },
+    {
+      "text": "meet my girl friend ",
+      "day": "tomarrow",
+      "reminder": true,
+      "id": 7
     }
   ]
 }
